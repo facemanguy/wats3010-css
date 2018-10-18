@@ -1,5 +1,8 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body{
+    margin: 0 auto;
+}
 
 h1 {
     color: green;
@@ -13,9 +16,23 @@ aside{
     background-color: aqua;
 }
 
+aside img{
+    float: right;
+    width: 10%;
+}
+
 body #content{
     background-color: orange;
+    text-align: center;
+    width: 75%;
 }
+
+ul.poem{
+    list-style-type: none;
+    margin: 0;
+}
+
+
 
 .content-footer{
     background-color: lightgreen;
