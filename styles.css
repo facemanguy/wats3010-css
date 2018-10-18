@@ -4,3 +4,23 @@
 h1 {
     color: green;
 }
+
+header{
+    background-color: gold;
+}
+
+aside{
+    background-color: aqua;
+}
+
+body #content{
+    background-color: orange;
+}
+
+.content-footer{
+    background-color: lightgreen;
+}
+
+.page-footer{
+    background-color: violet;
+}
