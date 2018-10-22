@@ -25,6 +25,13 @@ a {
 header{
     background-color: rgb(186, 155, 233, 0.7);
     text-align: center;
+    border: solid black;
+    border-bottom: none;
+}
+
+.page-header p{
+    margin: 0;
+    padding: 1rem;
 }
 
 aside{
@@ -68,4 +75,11 @@ aside img{
     background-color: rgb(218, 178, 143, 0.7);
     border: black solid;
     border-top: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.citation li{
+    display: block;
 }
