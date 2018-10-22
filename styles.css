@@ -81,5 +81,7 @@ aside img{
 }
 
 .citation li{
-    display: block;
+    display: inline-block;
+    height: 0.6rem;
+    padding: 0rem 1rem;
 }
