@@ -17,12 +17,12 @@ h1, h2{
 
 a {
     text-decoration: none;
-    color: steelblue;
+    color: #5a4977;
     /**/
 }
 
 header{
-    background-color: gold;
+    background-color: rgb(186, 155, 233, 0.7);
     text-align: center;
 }
 
@@ -34,6 +34,8 @@ aside{
     position: fixed;
     margin: 1rem;
     padding: 0.5rem;
+    border: black solid;
+    border-radius: 2rem;
 }
 
 aside img{
@@ -57,9 +59,11 @@ aside img{
 }
 
 .content-footer{
-    background-color: lightgreen;
+    color: #615377;
 }
 
 .page-footer{
-    background-color: violet;
+    background-color: rgb(216, 154, 192, 0.9);
+    border: black solid;
+    border-top: none;
 }
