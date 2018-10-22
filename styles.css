@@ -1,5 +1,11 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+html{
+    background-image: url(images/Xanadu_on_Map_of_Asia.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body{
     margin: 0 auto;
 }
@@ -14,11 +20,15 @@ header{
 
 aside{
     background-color: aqua;
+    width: 36rem;
+    overflow: auto;
 }
 
 aside img{
     float: right;
-    width: 10%;
+    height: auto;
+    object-fit: scale-down;
+    max-height: 20em;
 }
 
 body #content{
