@@ -8,11 +8,12 @@ html{
 
 body{
     margin: 0 auto;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 h1, h2{
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-decoration-line: underline;
 }
 
 a {
@@ -28,7 +29,7 @@ header{
 
 aside{
     background-color: rgb(216, 151, 191, 0.4);
-    max-width: 24rem;
+    max-width: 28rem;
     width: 50%;
     overflow: auto;
     position: fixed;
@@ -55,7 +56,8 @@ aside img{
 .poem{
     list-style-type: none;
     margin: 0;
-    line-height: 1.8;
+    line-height: 1.9;
+    font-size: 1.2rem;
 }
 
 .content-footer{
@@ -63,7 +65,7 @@ aside img{
 }
 
 .page-footer{
-    background-color: rgb(216, 154, 192, 0.9);
+    background-color: rgb(218, 178, 143, 0.7);
     border: black solid;
     border-top: none;
 }
