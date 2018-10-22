@@ -8,10 +8,16 @@ html{
 
 body{
     margin: 0 auto;
+    font-family: Helvetica, sans-serif;
 }
 
-h1 {
-    color: green;
+h1, h2{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
 }
 
 header{
@@ -20,7 +26,8 @@ header{
 
 aside{
     background-color: aqua;
-    width: 36rem;
+    max-width: 36rem;
+    width: 50%;
     overflow: auto;
 }
 
