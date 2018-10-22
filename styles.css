@@ -4,7 +4,6 @@ html{
     background-image: url(images/Xanadu_on_Map_of_Asia.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 body{
@@ -42,8 +41,6 @@ ul.poem{
     list-style-type: none;
     margin: 0;
 }
-
-
 
 .content-footer{
     background-color: lightgreen;
